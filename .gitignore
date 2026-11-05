@@ -16,3 +16,8 @@ temp/
 *.log
 *.bak
 *.old
+
+# Rust build output
+/target/
+**/*.rs.bk
+*.pdb

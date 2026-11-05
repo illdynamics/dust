@@ -1,0 +1,3 @@
+# Stable, deterministic Rust style (nightly-only keys removed so `cargo fmt` is warning-free on stable).
+newline_style = "Unix"
+use_small_heuristics = "Max"
