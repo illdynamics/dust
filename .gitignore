@@ -16,3 +16,15 @@ temp/
 *.log
 *.bak
 *.old
+
+# Qq
+.qq**
+.qq
+.qq/**
+__pycache__/
+*.pyc
+._*
+.env
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
