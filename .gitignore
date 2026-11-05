@@ -1,0 +1,18 @@
+# Codex agent working directory (ignored recursively)
+.codeseeq/
+
+# Editor / OS cruft
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temp files
+/tmp/
+temp/
+*.tmp
+*.log
+*.bak
+*.old
