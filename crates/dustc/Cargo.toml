@@ -1,0 +1,17 @@
+[package]
+name = "dustc"
+version = "0.1.0-alpha"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Dust compiler driver (front end + C11 backend)."
+
+[[bin]]
+name = "dustc"
+path = "src/main.rs"
+
+[dependencies]
+# none yet: minimal-dependency policy; add only with a recorded rationale.
+
+[dev-dependencies]
+tempfile = "3"

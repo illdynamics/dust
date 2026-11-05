@@ -1,0 +1,17 @@
+# Dust — cargo workspace for the compiler toolchain.
+# Host language is Rust; first native backend emits C11 (see ARCHITECTURE.md).
+[workspace]
+resolver = "2"
+members = [
+    "crates/dustc",
+]
+
+[workspace.package]
+version = "0.1.0-alpha"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/illdynamics/dust.git"
+description = "Dust, a native systems language for constrained and edge devices."
+
+[profile.release]
+opt-level = 2
